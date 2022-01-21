@@ -1,0 +1,6 @@
+name: Cosmetics
+version: '${project.version}'
+main: com.ruserious99.cosmetics.Cosmetics
+api-version: 1.16
+commands:
+  cosmetics:
