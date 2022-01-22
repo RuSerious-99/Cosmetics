@@ -46,7 +46,7 @@ public class CreateItemStacks {
         cosmeticSkull.setItemMeta(meta);
 
         GameProfile profile = new GameProfile(UUID.randomUUID(), null);
-        profile.getProperties().put("textures", new Property("textures","eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU3YThjNWVmNmNhZmVmYTUwZWIzMDhiOTdhNjM3NWIxMzJkZWY2ZmI2YzUwYjEwN2ZiYjM5YTI4ZmE2YzIyNyJ9fX0="));
+        profile.getProperties().put("textures", new Property("textures","eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkMDQ3NmU4NjcxNjk2YWYzYTg5NDlhZmEyYTgxNGI5YmRkZTY1ZWNjZDFhOGI1OTNhZWVmZjVhMDMxOGQifX19"));
         Field field;
         try {
             field = meta.getClass().getDeclaredField("profile");
@@ -77,7 +77,7 @@ public class CreateItemStacks {
         cosmeticTrail.setItemMeta(meta);
 
         GameProfile profile = new GameProfile(UUID.randomUUID(), null);
-        profile.getProperties().put("textures", new Property("textures","eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU3YThjNWVmNmNhZmVmYTUwZWIzMDhiOTdhNjM3NWIxMzJkZWY2ZmI2YzUwYjEwN2ZiYjM5YTI4ZmE2YzIyNyJ9fX0="));
+        profile.getProperties().put("textures", new Property("textures","eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzNzVkODA1MjkxYmFjN2QwNDVjNWMwNDQ4YWI3ZjU1OTlmYTZkOWE4Y2FlYWU0YmQyNTFkNTg2ZTJjOCJ9fX0="));
         Field field;
         try {
             field = meta.getClass().getDeclaredField("profile");

@@ -20,7 +20,12 @@ public enum TrailsType {
     CAMPFIRE_TRAIL(ChatColor.GRAY + "CAMPFIRE TRAIL",
                 Arrays.asList(ChatColor.WHITE + "Break out the MarshMellows"),
             "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ5NTk2NWQ3OWRkZjYxM2Y1OTRmZDIwZDUxZTc2NWMwOWEyYTVmZjhkMGUwOWNmZjE5YThlYTQzMDIzNThhZCJ9fX0=",
-    Particle.CAMPFIRE_SIGNAL_SMOKE);
+    Particle.CAMPFIRE_SIGNAL_SMOKE),
+
+    FIREWORKS(ChatColor.YELLOW + "FIREWORKS TRAIL",
+            Arrays.asList(ChatColor.WHITE + "Spark of Life"),
+            "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE1YTkxYmM1ZDNhZjVhMjUyMjU4YTcxOGVjZGMxM2IwNGIxYTUxNzE3ZmFhOTVjZjhhMGQyYTVhN2Q3OWRhYSJ9fX0=",
+            Particle.CAMPFIRE_SIGNAL_SMOKE);
 
 
 
